@@ -1,0 +1,407 @@
+/*********************Achievements************************/
+.achievements {
+	margin-left: auto;
+	margin-right: auto;
+	width: 98%;
+	display: block;
+}
+
+#banner2015 {
+	background: url(./../images/achievements/2015.jpg) no-repeat center;
+}
+
+#banner2015:hover {
+	background: url(./../images/achievements/2015hover.jpg) no-repeat center;
+}
+
+#banner2014 {
+	background: url(./../images/achievements/2014.jpg) no-repeat center;
+}
+
+#banner2014:hover {
+	background: url(./../images/achievements/2014hover.jpg) no-repeat center;
+}
+
+#banner2013 {
+	background: url(./../images/achievements/2013.jpg) no-repeat center;
+}
+
+#banner2013:hover {
+	background: url(./../images/achievements/2013hover.jpg) no-repeat center;
+}
+
+#banner2012 {
+	background: url(./../images/achievements/2012.jpg) no-repeat center;
+}
+
+#banner2012:hover {
+	background: url(./../images/achievements/2012hover.jpg) no-repeat center;
+}
+
+#banner2011 {
+	background: url(./../images/achievements/2011.jpg) no-repeat center;
+}
+
+#banner2011:hover {
+	background: url(./../images/achievements/2011hover.jpg) no-repeat center;
+}
+
+#banner2009 {
+	background: url(./../images/achievements/2009.jpg) no-repeat center;
+}
+
+#banner2009:hover {
+	background: url(./../images/achievements/2009hover.jpg) no-repeat center;
+}
+
+#banner2008 {
+	background: url(./../images/achievements/2008.jpg) no-repeat center;
+}
+
+#banner2008:hover {
+	background: url(./../images/achievements/2008hover.jpg) no-repeat center;
+}
+
+#banner2007 {
+	background: url(./../images/achievements/2007.jpg) no-repeat center;
+}
+
+#banner2007:hover {
+	background: url(./../images/achievements/2007hover.jpg) no-repeat center;
+}
+
+#banner2006 {
+	background: url(./../images/achievements/2006.jpg) no-repeat center;
+}
+
+#banner2006:hover {
+	background: url(./../images/achievements/2006hover.jpg) no-repeat center;
+}
+
+#banner2005 {
+	background: url(./../images/achievements/2005.jpg) no-repeat center;
+}
+
+#banner2005:hover {
+	background: url(./../images/achievements/2005hover.png) no-repeat center;
+}
+
+#banner2004 {
+	background: url(./../images/achievements/2004.png) no-repeat center;
+}
+
+#banner2004:hover {
+	background: url(./../images/achievements/2004hover.png) no-repeat center;
+}
+
+/*
+#shoryuhai2015 {
+	height: 100%;
+	background: url(./../images/achievements/shoryuhai2015.jpg) no-repeat center;
+	text-shadow:
+    -1px -1px 0 #000,
+    1px -1px 0 #000,
+    -1px 1px 0 #000,
+    1px 1px 0 #000;  
+}
+
+#yuhihai2015 {
+	height: 100%;
+	background: url(./../images/achievements/yuhihai2015.jpg) no-repeat center;
+	text-shadow:
+    -1px -1px 0 #000,
+    1px -1px 0 #000,
+    -1px 1px 0 #000,
+    1px 1px 0 #000;  
+}
+
+#shoryuhai2014 {
+	height: 100%;
+	background: url(./../images/achievements/shoryuhai2014.jpg) no-repeat center;
+	text-shadow:
+    -1px -1px 0 #000,
+    1px -1px 0 #000,
+    -1px 1px 0 #000,
+    1px 1px 0 #000;  
+}
+
+#yuhihai2014 {
+	height: 100%;
+	background: url(./../images/achievements/yuhihai2014.jpg) no-repeat center;
+	text-shadow:
+    -1px -1px 0 #000,
+    1px -1px 0 #000,
+    -1px 1px 0 #000,
+    1px 1px 0 #000;  
+}
+
+#shoryuhai2013 {
+	height: 100%;
+	background: url(./../images/achievements/shoryuhai2013.jpg) no-repeat center;
+	text-shadow:
+    -1px -1px 0 #000,
+    1px -1px 0 #000,
+    -1px 1px 0 #000,
+    1px 1px 0 #000;  
+}
+
+#yuhihai2013 {
+	height: 100%;
+	background: url(./../images/achievements/yuhihai2013.jpg) no-repeat center;
+	text-shadow:
+    -1px -1px 0 #000,
+    1px -1px 0 #000,
+    -1px 1px 0 #000,
+    1px 1px 0 #000;  
+}
+
+#shoryuhai2012 {
+	height: 100%;
+	background: url(./../images/achievements/shoryuhai2012.jpg) no-repeat center;
+	text-shadow:
+    -1px -1px 0 #000,
+    1px -1px 0 #000,
+    -1px 1px 0 #000,
+    1px 1px 0 #000;  
+}
+
+#yuhihai2012 {
+	height: 100%;
+	background: url(./../images/achievements/yuhihai2012.JPG) no-repeat center;
+	text-shadow:
+    -1px -1px 0 #000,
+    1px -1px 0 #000,
+    -1px 1px 0 #000,
+    1px 1px 0 #000;  
+}
+
+#shoryuhai2011 {
+	height: 100%;
+	background: url(./../images/achievements/shoryuhai2011.JPG) no-repeat center;
+	text-shadow:
+    -1px -1px 0 #000,
+    1px -1px 0 #000,
+    -1px 1px 0 #000,
+    1px 1px 0 #000;  
+}
+
+#yuhihai2011 {
+	height: 100%;
+	background: url(./../images/achievements/yuhihai2011.JPG) no-repeat center;
+	text-shadow:
+    -1px -1px 0 #000,
+    1px -1px 0 #000,
+    -1px 1px 0 #000,
+    1px 1px 0 #000;  
+}*/
+
+.noPicResult {
+	width: 45%;
+	box-shadow: 10px 10px 5px #888888;
+	margin: 2% 2%;
+	text-align: center;
+	color: #FFF;
+	text-shadow:
+    -1px -1px 0 #000,
+    1px -1px 0 #000,
+    -1px 1px 0 #000,
+    1px 1px 0 #000;  
+}
+
+.noPicResult2 {
+	width: 100%;
+	height: 50px;
+	box-shadow: 10px 10px 5px #888888;
+	margin: 2% 2%;
+	text-align: center;
+	color: #FFF;
+	text-shadow:
+    -1px -1px 0 #000,
+    1px -1px 0 #000,
+    -1px 1px 0 #000,
+    1px 1px 0 #000;  
+}
+
+.noPicResult:hover, .noPicResult2:hover {
+	color: #AAAADD;
+	/*background-color: #555;*/
+}
+
+.sectionBottom {
+	margin: 2% 2%;
+}
+
+.picBottom {
+	box-shadow: 10px 10px 5px #888888;
+}
+
+.result {
+	width: 90%;
+	height: 200px;
+	box-shadow: 10px 10px 5px #888888;
+	margin: 2% 2%;
+	text-align: center;
+	color: #FFF;
+}
+
+.result:hover {
+	color: #AAAADD;
+	/*background-color: #555;*/
+}
+
+.overlay {
+	background-color: rgba(0, 0, 10, 0.6);
+	bottom: 0;
+	cursor: default;
+	left: 0;
+	opacity: 0;
+	position: fixed;
+	right: 0;
+	top: 0;
+	visibility: hidden;
+	z-index: 1;
+	
+	-webkit-transition: opacity .5s;
+	-moz-transition: opacity .5s;
+	-ms-transition: opacity .5s;
+	-o-transition: opacity .5s;
+	transition: opacity .5s;
+}
+
+.overlay:target {
+	visibility: visible;
+	opacity: 1;
+}
+
+.popup {
+	background-color: #fff;
+	border: 3px solid #fff;
+	display: inline-block;
+	max-height: 85%;
+	width: 80%;
+	/*overflow: scroll;*/
+	left: 50%;
+	opacity: 0;
+	padding: 10px;
+	position: fixed;
+	text-align: center;
+	top: 40%;
+	visibility: hidden;
+	z-index: 10;
+	
+	-webkit-transform: translate(-50%, -50%);
+	-moz-transform: translate(-50%, -50%);
+	-ms-transform: translate(-50%, -50%);
+	-o-transform: translate(-50%, -50%);
+	transform: translate(-50%, -50%);
+	
+	-webkit-border-radius: 10px;
+	-moz-border-radius: 10px;
+	-ms-border-radius: 10px;
+	-o-border-radius: 10px;
+	border-radius: 10px;
+	
+	-webkit-box-shadow: 0 1px 1px 2px rgba(0, 0, 0, 0.4) inset;
+	-moz-box-shadow: 0 1px 1px 2px rgba(0, 0, 0, 0.4) inset;
+	-ms-box-shadow: 0 1px 1px 2px rgba(0, 0, 0, 0.4) inset;
+	-o-box-shadow: 0 1px 1px 2px rgba(0, 0, 0, 0.4) inset;
+	box-shadow: 0 1px 1px 2px rgba(0, 0, 0, 0.4) inset;
+	
+	-webkit-transition: opacity .5s, top .5s;
+	-moz-transition: opacity .5s, top .5s;
+	-ms-transition: opacity .5s, top .5s;
+	-o-transition: opacity .5s, top .5s;
+	transition: opacity .5s, top .5s;
+}
+
+.overlay:target+.popup {
+	top: 50%;
+	opacity: 1;
+	visibility: visible;
+}
+
+.close {
+	background-color: rgba(0, 0, 0, 0.8);
+	height: 30px;
+	line-height: 30px;
+	position: absolute;
+	right: 0;
+	text-align: center;
+	text-decoration: none;
+	top: -15px;
+	width: 30px;
+	
+	-webkit-border-radius: 15px;
+	-moz-border-radius: 15px;
+	-ms-border-radius: 15px;
+	-o-border-radius: 15px;
+	border-radius: 15px;
+}
+
+.close:before {
+	color: rgba(255, 255, 255, 0.9);
+	content: "X";
+	font-size: 24px;
+	text-shadow: 0 -1px rgba(0, 0, 0, 0.9);
+}
+
+.close:hover {
+	background-color: rgba(64, 128, 128, 0.8);
+}
+/*
+.popup p, .popup div {
+	margin-bottom: 10px;
+}*/
+/*
+.popup label {
+	display: inline-block;
+	text-align: left;
+	width: 120px;
+}
+
+.popup input[type="text"], .popup input[type="password"] {
+	border: 1px solid;
+	border-color: #999 #ccc #ccc;
+	margin: 0;
+	padding: 2px;
+	
+	-webkit-border-radius: 2px;
+	-moz-border-radius: 2px;
+	-ms-border-radius: 2px;
+	-o-border-radius: 2px;
+	border-radius: 2px;
+}
+
+.popup input[type="text"]:hover, .popup input[type="password"]:hover {
+	border-color: #555 #888 #888;
+}*/
+
+@media screen and (max-width: 478px) {
+	.popup {
+		font-size: 9px;
+		padding: 2px;
+	}
+	.result {
+		height: 100px;
+	}
+}
+
+@media screen and (max-width: 740px) {
+	.popup {
+		font-size: 11px;
+		padding: 2px;
+	}
+	#banner2015, #banner2015:hover, 
+	#banner2014, #banner2014:hover, 
+	#banner2013, #banner2013:hover, 
+	#banner2012, #banner2012:hover, 
+	#banner2011, #banner2011:hover, 
+	#banner2009, #banner2009:hover, 
+	#banner2008, #banner2008:hover, 
+	#banner2007, #banner2007:hover, 
+	#banner2006, #banner2006:hover, 
+	#banner2005, #banner2005:hover, 
+	#banner2004, #banner2004:hover {
+		background-size: cover;
+	}
+}

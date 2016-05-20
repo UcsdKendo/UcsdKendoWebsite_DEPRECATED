@@ -1,0 +1,315 @@
+* {
+	margin: 0;
+	border: 0;
+	padding: 0;
+}
+
+body {
+	background: #F0F0F0;
+	font: 14px/20px Arial, Segoe UI, Helvetica;
+	color: #555;
+	margin: 0;
+}
+
+h1 {
+	text-align: center;
+	font-size: 280%;
+	line-height: 120%;
+	padding: 5px 0;
+	text-shadow: 1px 1px #000;
+	text-decoration: bold;
+}
+
+h2 {
+	text-align: center;
+	font-size: 180%;
+	line-height: 120%;
+	padding: 5% 0;
+	color: #063698;
+}
+
+h3 {
+	line-height: 25px;
+	padding: 0% 0;
+}
+
+p {
+	padding: 1% 1% 20px 1%;
+}
+
+img {
+	text-align: center;
+	max-width: 100%;
+	height: auto;
+	width: auto;
+}
+
+a {
+	color: #FFF;
+	text-decoration: none;
+	font-weight: bold;
+	width: 100%;
+	height: auto;
+}
+
+a:hover {
+	color: #FFF;
+	/*text-decoration: underline;*/
+}
+
+header {
+	background: #063698;
+	width: 100%;
+	height: 86px;
+	position: fixed;
+	top: 0;
+	left: 0;
+	z-index: 5;
+	opacity: 0.9;
+}
+
+#logo {
+	margin: 15px;
+	float: left;
+	width: 60px;
+	height: 60px;
+	background: url(./../images/KendoLogoSmall.png) no-repeat center;
+	box-shadow: 2px 2px 2px #000;
+}
+
+nav {
+	float: right;
+	padding: 35px 20px 20px 0;
+	text-align: center;
+}
+
+#menu-icon {
+	display: none;
+	float: right;
+	padding: 15px 20px;
+	color: #FFF;
+	cursor: pointer;
+	border-radius: 5px;
+	margin: -15px -5px 0 0;
+	font-size: 28px;
+	text-decoration: bold;
+	background: -webkit-linear-gradient(#305580, #4055D0); /* For Safari 5.1 to 6.0 */
+	background: -o-linear-gradient(#305580, #4055D0); /* For Opera 11.1 to 12.0 */
+	background: -moz-linear-gradient(#305580, #4055D0); /* For Firefox 3.6 to 15 */
+	background: linear-gradient(#305580, #4055D0); /* Standard syntax */
+	box-shadow: 1px 1px 2px #000;
+	text-shadow: -1px -1px #000;
+}
+
+a:hover#menu-icon {
+	border-radius: 4px 4px 0 0;
+}
+
+ul {
+	list-style: none;
+}
+
+nav ul li {
+	display: inline-block;
+	float: center;
+	padding: 10px;
+}
+
+nav ul a{
+	width: 100%;
+	height: 100%;
+}
+
+nav ul li:hover, .current {
+	color: #FFF;
+	background: #555555;
+}
+
+#doc {
+	margin: 40px 0;
+}
+
+#content {
+	margin: 0 auto;
+	max-width: 1140px;
+	margin-top: 110px;	
+}
+
+.blueberry {
+	max-width: 960px;
+	margin-top: 110px;
+}
+
+section {
+	width: 29%;
+	float: left;
+	margin: 2% 2%;
+	text-align: center;
+}
+
+.clear {
+	clear: both;
+}
+
+article {
+	float: left;
+	margin: 0 auto;
+	width: 50%;
+	height: auto;
+	padding: 4%;
+}
+
+aside {
+	float: right;
+	margin: 0 auto;
+	width: 35%;
+	height: auto;
+	padding: 3%;
+}
+
+ul.gym li {
+	padding.left: 3%;
+} 
+
+footer {
+	background: #333333;
+	width: 100%;
+	overflow: hidden;
+	opacity: 0.9;
+}
+
+footer p, footer h3 {
+	color: #FFF;
+}
+
+footer p a {
+	color: #FFF;
+	text-decoration: none;
+}
+
+ul.social li {
+	display: inline;
+}
+
+ul.social li img {
+	height: 50px;
+}
+
+footer.second {
+	border-top: 1px solid #404E50;
+	background-color: #333333;
+	max-height: 50px;
+	text-align: center;
+	opacity: 0.95;
+}
+
+/********************For fun**********************/
+/*
+.fadeIn {
+        opacity:0;
+        -webkit-animation:fadeIn ease-in 0.5;
+        -moz-animation:fadeIn ease-in 0.5;
+        -o-animation:fadeIn ease-in 0.5;
+        animation:fadeIn ease-in 0.5;
+        -webkit-animation-fill-mode:forwards;
+        -moz-animation-fill-mode:forwards;
+        -o-animation-fill-mode:forwards;
+        animation-fill-mode:forwards;
+}
+.fadeIn-Delay-1 {
+        -webkit-animation-delay:0.5s;
+        -moz-animation-delay:0.5s;
+        -o-animation-delay:0.5s;
+        animation-delay:0.5s;
+}
+.fadeIn-Delay-2 {
+        -webkit-animation-delay:1s;
+        -moz-animation-delay:1s;
+        -o-animation-delay:1s;
+        animation-delay:1s;
+}
+.fadeIn-Delay-3 {
+        -webkit-animation-delay:1.5s;
+        -moz-animation-delay:1.5s;
+        -o-animation-delay:1.5s;
+        animation-delay:1.5s;
+}
+.fadeIn-Delay-4{
+        -webkit-animation-delay:2s;
+        -moz-animation-delay:2s;
+        -o-animation-delay:2s;
+        animation-delay:2s;
+}
+.fadeIn-Delay-5 {
+        -webkit-animation-delay:2.5s;
+        -moz-animation-delay:2.5s;
+        -o-animation-delay:2.5s;
+        animation-delay:2.5s;
+}
+@-webkit-keyframes fadeIn { from { opacity:0; background: black; } to { opacity:0.9; background: #405580;} }
+@-moz-keyframes fadeIn { from { opacity:0; background: black; } to { opacity:0.9; background: #405580;} }
+@-o-keyframes fadeIn { from { opacity:0; background: black; } to { opacity:0.9; background: #405580;} }
+@keyframes fadeIn { from { opacity:0; background: black; } to { opacity:0.9; background: #405580;} }
+*/
+/**------------------Media--------------------*/
+@media screen and (max-width: 478px) {
+	/*body {
+		position: absolute;
+	}*/
+	header {
+		width: 100%;
+	}
+}
+
+@media screen and (max-width: 740px) {
+	header {
+		position: absolute;
+	}
+	#menu-icon {
+		display: inline-block;
+	}
+	nav ul, nav:active ul {
+		display: none;
+		position: absolute;
+		background: #405580;
+		border: 1px solid #116666;
+		right: 20px;
+		top: 60px;
+		width: 50%;
+		border-radius: 2px 0 2px 2px;
+	}
+	nav ul li {
+		text-align: center;
+		padding: 10px 0;
+		margin: 0;
+		transition: all 0.5s ease;
+		-webkit-transition: all 0.5s ease;
+		width: 60%;
+		vertical-align: middle;
+	}
+	nav:hover ul {
+		display: block;
+	}
+	nav ul li:hover, .current{
+		color: #FFF;
+		background: #555555;
+		width: 100%;
+	}
+	
+	section{
+		float: left;
+		width: 100%;
+		margin: 0;
+	}
+}
+
+
+
+
+
+
+
+
+
+
+
