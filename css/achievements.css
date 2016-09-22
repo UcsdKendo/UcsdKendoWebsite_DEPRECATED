@@ -6,6 +6,14 @@
 	display: block;
 }
 
+#banner2016 {
+	background: url(./../images/achievements/2016.png) no-repeat center;
+}
+
+#banner2016:hover {
+	background: url(./../images/achievements/2016hover.png) no-repeat center;
+}
+
 #banner2015 {
 	background: url(./../images/achievements/2015.jpg) no-repeat center;
 }
@@ -47,39 +55,39 @@
 }
 
 #banner2009 {
-	background: url(./../images/achievements/2009.jpg) no-repeat center;
+	background: url(./../images/achievements/2009.png) no-repeat center;
 }
 
 #banner2009:hover {
-	background: url(./../images/achievements/2009hover.jpg) no-repeat center;
+	background: url(./../images/achievements/2009hover.png) no-repeat center;
 }
 
 #banner2008 {
-	background: url(./../images/achievements/2008.jpg) no-repeat center;
+	background: url(./../images/achievements/2008.png) no-repeat center;
 }
 
 #banner2008:hover {
-	background: url(./../images/achievements/2008hover.jpg) no-repeat center;
+	background: url(./../images/achievements/2008hover.png) no-repeat center;
 }
 
 #banner2007 {
-	background: url(./../images/achievements/2007.jpg) no-repeat center;
+	background: url(./../images/achievements/2007.png) no-repeat center;
 }
 
 #banner2007:hover {
-	background: url(./../images/achievements/2007hover.jpg) no-repeat center;
+	background: url(./../images/achievements/2007hover.png) no-repeat center;
 }
 
 #banner2006 {
-	background: url(./../images/achievements/2006.jpg) no-repeat center;
+	background: url(./../images/achievements/2006.png) no-repeat center;
 }
 
 #banner2006:hover {
-	background: url(./../images/achievements/2006hover.jpg) no-repeat center;
+	background: url(./../images/achievements/2006hover.png) no-repeat center;
 }
 
 #banner2005 {
-	background: url(./../images/achievements/2005.jpg) no-repeat center;
+	background: url(./../images/achievements/2005.png) no-repeat center;
 }
 
 #banner2005:hover {
@@ -92,6 +100,10 @@
 
 #banner2004:hover {
 	background: url(./../images/achievements/2004hover.png) no-repeat center;
+}
+
+.bodyLink {
+	color: #063698;
 }
 
 /*
