@@ -192,17 +192,17 @@ section.success {
     padding-top: 75px;
   }
 }
-#portfolio .portfolio-item {
+#coaches .portfolio-item {
   margin: 0 0 15px;
   right: 0;
 }
-#portfolio .portfolio-item .portfolio-link {
+#coaches .portfolio-item .portfolio-link {
   display: block;
   position: relative;
   max-width: 400px;
   margin: 0 auto;
 }
-#portfolio .portfolio-item .portfolio-link .caption {
+#coaches .portfolio-item .portfolio-link .caption {
   background: rgba(24, 188, 156, 0.9);
   position: absolute;
   width: 100%;
@@ -212,10 +212,10 @@ section.success {
   -webkit-transition: all ease 0.5s;
   -moz-transition: all ease 0.5s;
 }
-#portfolio .portfolio-item .portfolio-link .caption:hover {
+#coaches .portfolio-item .portfolio-link .caption:hover {
   opacity: 1;
 }
-#portfolio .portfolio-item .portfolio-link .caption .caption-content {
+#coaches .portfolio-item .portfolio-link .caption .caption-content {
   position: absolute;
   width: 100%;
   height: 20px;
@@ -225,18 +225,114 @@ section.success {
   margin-top: -12px;
   color: white;
 }
-#portfolio .portfolio-item .portfolio-link .caption .caption-content i {
+#coaches .portfolio-item .portfolio-link .caption .caption-content i {
   margin-top: -12px;
 }
-#portfolio .portfolio-item .portfolio-link .caption .caption-content h3,
-#portfolio .portfolio-item .portfolio-link .caption .caption-content h4 {
+#coaches .portfolio-item .portfolio-link .caption .caption-content h3,
+#coaches .portfolio-item .portfolio-link .caption .caption-content h4 {
   margin: 0;
 }
-#portfolio * {
+#coaches * {
   z-index: 2;
 }
 @media (min-width: 767px) {
-  #portfolio .portfolio-item {
+  #coaches .portfolio-item {
+    margin: 0 0 30px;
+  }
+}
+#achievements .portfolio-item {
+  margin: 0 0 15px;
+  right: 0;
+}
+#achievements .portfolio-item .portfolio-link {
+  display: block;
+  position: relative;
+  max-width: 400px;
+  margin: 0 auto;
+}
+#achievements .portfolio-item .portfolio-link .caption {
+  background: rgba(24, 188, 156, 0.9);
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  opacity: 0;
+  transition: all ease 0.5s;
+  -webkit-transition: all ease 0.5s;
+  -moz-transition: all ease 0.5s;
+}
+#achievements .portfolio-item .portfolio-link .caption:hover {
+  opacity: 1;
+}
+#achievements .portfolio-item .portfolio-link .caption .caption-content {
+  position: absolute;
+  width: 100%;
+  height: 20px;
+  font-size: 20px;
+  text-align: center;
+  top: 50%;
+  margin-top: -12px;
+  color: white;
+}
+#achievements .portfolio-item .portfolio-link .caption .caption-content i {
+  margin-top: -12px;
+}
+#achievements .portfolio-item .portfolio-link .caption .caption-content h3,
+#achievements .portfolio-item .portfolio-link .caption .caption-content h4 {
+  margin: 0;
+}
+#achievements * {
+  z-index: 2;
+}
+@media (min-width: 767px) {
+  #achievements .portfolio-item {
+    margin: 0 0 30px;
+  }
+}
+#gallery .portfolio-item {
+  margin: 0 0 15px;
+  right: 0;
+}
+#gallery .portfolio-item .portfolio-link {
+  display: block;
+  position: relative;
+  max-width: 400px;
+  margin: 0 auto;
+}
+#gallery .portfolio-item .portfolio-link .caption {
+  background: rgba(24, 188, 156, 0.9);
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  opacity: 0;
+  transition: all ease 0.5s;
+  -webkit-transition: all ease 0.5s;
+  -moz-transition: all ease 0.5s;
+}
+#gallery .portfolio-item .portfolio-link .caption:hover {
+  opacity: 1;
+}
+#gallery .portfolio-item .portfolio-link .caption .caption-content {
+  position: absolute;
+  width: 100%;
+  height: 20px;
+  font-size: 20px;
+  text-align: center;
+  top: 50%;
+  margin-top: -12px;
+  color: white;
+}
+#gallery .portfolio-item .portfolio-link .caption .caption-content i {
+  margin-top: -12px;
+}
+#gallery .portfolio-item .portfolio-link .caption .caption-content h3,
+#gallery .portfolio-item .portfolio-link .caption .caption-content h4 {
+  margin: 0;
+}
+#gallery * {
+  z-index: 2;
+}
+@media (min-width: 767px) {
+  #gallery .portfolio-item {
     margin: 0 0 30px;
   }
 }
