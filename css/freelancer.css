@@ -494,8 +494,8 @@ fieldset[disabled] .btn-success:active,
 .btn-success.disabled.active,
 .btn-success[disabled].active,
 fieldset[disabled] .btn-success.active {
-  background-color: #18BC9C;
-  border-color: #18BC9C;
+  background-color: #e2d218;
+  border-color: #e2d218;
 }
 .btn-success .badge {
   color: #e2d218;
