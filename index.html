@@ -1,96 +1,1205 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-<meta charset="utf-8" />
-<title>UCSD Kendo</title>
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-<link rel="stylesheet" href="blueberry.css" />
-<link rel="stylesheet" href="css/index.css">
-<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.6.1/jquery.min.js"></script>
-<script src="jquery.blueberry.js"></script>
 
-<script src="js/index.js"></script>
-<script src="js/index_blueberry.js"></script>
+<head>
+
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+    <title>Kendo Club at UCSD</title>
+
+    <!-- Bootstrap Core CSS -->
+    <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Theme CSS -->
+    <link href="css/freelancer.css" rel="stylesheet">
+
+    <!-- Custom Fonts -->
+    <link href="vendor/font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
+    <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet" type="text/css">
+    <link href="https://fonts.googleapis.com/css?family=Lato:400,700,400italic,700italic" rel="stylesheet" type="text/css">
+
+    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+        <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+        <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
+
 </head>
 
-<body>
-	<header>
-		<!-- Navigation menu -->
-		<a href="#" id="logo"></a>
-		<nav>
-			<label id="menu-icon">&#9776;</label>
-			<ul id="menu">
-				<a href="#"><li class="current" >About Us</li></a>
-				<a href="./coaches.html"><li>Coaches</li></a>
-				<a href="./officers.html"><li>Officers</li>
-				<a href="./calendar.html"><li>Calendar</li></a>
-				<a href="./achievements.html"><li>Achievements</li></a>
-				<a href="./gallery.html"><li>Gallery</li></a>
-				<a href="./contact.html"><li>Contact Us</li></a>
-			</ul>
-		</nav>
-	</header>
-	
-	
-	<div id="homepage">
-	<!-- image slider -->
-	<div>
-		<div id="content">
-			<div class="blueberry">
-				<ul class="slides">
-					<li><img src="./images/slider/shoryuhai2015GroupPic.jpg" alt="Shoryuhai 2015 Group Pic" title="Shoryuhai 2015 Group Pic" /></li>
-					<li><img src="./images/slider/spamMusubiSale.jpg" alt="Spam Musubi Sale" title="Spam Musubi Sale" /></li>
-					<li><img src="./images/slider/cutestCoach2015.jpg" alt="Cutest Coach 2015" title="Cutest Coach 2015"/></li>
-				</ul>
-			</div>
-		</div>
-	</div>
-	
-	<!-- Three Sections -->
-	<section>
-		<img src="./images/KendoGuySmall.png" alt="Kendo Guy" title="Kendo Guy" />
-		<h2>WHAT IS "KENDO"?</h2>
-		<p>[Under Construction] </p>
-	</section>
-	<section>
-		<img src="./images/KendoGuySmall.png" alt="Kendo Guy" title="Kendo Guy" />
-		<h2>ABOUT US</h2>
-		<p>Our club seeks to promote awareness and appreciation of the Japanese martial art, kendo (剣道). We practice every Saturday from 2:15 PM to 4:00 PM in the Rec Gym, followed by a club meeting. In addition, many of our members are also enrolled in the Kendo Recreation Class. </p>
-		<p>The Kendo Club at UCSD was founded in 1998 and remains active to this day. Our members have gone on to compete at the national and international level.</p>
-	</section>
-	<section>
-		<img src="./images/KendoGuySmall.png" alt="Kendo Guy" title="Kendo Guy" />
-		<h2>RECREATION CLASS/TEAM</h2>
-		<p>The Kendo Recreation Class is offered through the UCSD Recreation Department. The class meets on Saturdays from 12:00 PM to 1:55 PM in the Rec Gym, and is taught by John Yamamoto-sensei of the San Diego Kendo Bu. It’s a great way for beginners to learn kendo from an experienced individual in a welcoming environment! </p>
-	</section>
+<body id="page-top" class="index">
+<div id="skipnav"><a href="#maincontent">Skip to main content</a></div>
 
-	<div class="clear"></div>
-	</div> <!-- end of home page-->
-	
-	<!-- Footer -->
-	<footer>
-		<section>
-			<h3><b>UCSD Kendo Team</b></h3>
-			<p><b>Email: teamucsd.kendo@gmail.com</b></p>
-			<h3><b>Recreation Class/SDKB</b></h3>
-			<p><b>Email: sdkendo@gmail.com</b></p>
-		</section>
-		<section>
-			<h3>Connect: </h3>
-			<ul class="social">
-				<li><a href="https://www.facebook.com/groups/UCSDKendoClub/"><img src="./images/facebook_logo.png" alt="Facebook Logo" title="Facebook Logo"></a></li>
-			</ul>
-		</section>
-		<section>
-			<img src="" />
-		</section>
-	</footer>
-	
-	<div class="clear"></div>
-	
-	<footer class="second">
-		<p>Copyright &#169;  2017 UCSD Kendo</p>
-	</footer>
-	</div>
+    <!-- Navigation -->
+    <nav id="mainNav" class="navbar navbar-default navbar-fixed-top navbar-custom">
+        <div class="container">
+            <!-- Brand and toggle get grouped for better mobile display -->
+            <div class="navbar-header page-scroll">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+                    <span class="sr-only">Toggle navigation</span> Menu <i class="fa fa-bars"></i>
+                </button>
+                <a class="navbar-brand" href="#page-top">Kendo Club at UCSD</a>
+            </div>
+
+            <!-- Collect the nav links, forms, and other content for toggling -->
+            <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                <ul class="nav navbar-nav navbar-right">
+                    <li class="hidden">
+                        <a href="#page-top"></a>
+                    </li>
+                    <li class="page-scroll">
+                        <a href="#officers">Officers</a>
+                    </li>
+                    <li class="page-scroll">
+                        <a href="#coaches">Coaches</a>
+                    </li>
+                    <li class="page-scroll">
+                        <a href="#achievements">Achievements</a>
+                    </li>
+                    <li class="page-scroll">
+                        <a href="#gallery">Gallery</a>
+                    </li>
+                    <li class="page-scroll">
+                        <a href="#about">About</a>
+                    </li>
+                    <li class="page-scroll">
+                        <a href="#contact">Contact</a>
+                    </li>
+                </ul>
+            </div>
+            <!-- /.navbar-collapse -->
+        </div>
+        <!-- /.container-fluid -->
+    </nav>
+
+    <!-- Header -->
+    <header>
+        <div class="container" id="maincontent" tabindex="-1">
+            <div class="row">
+                <div class="col-lg-12">
+                    <!--div class="img-responsive">
+                        <div class="header-background"></div>
+                    </div-->
+                   
+                    <div class="intro-text">
+                        <h1 class="name">Kendo Club at UCSD</h1>
+                        <hr class="star-primary">
+                        <!-- <span class="skills">Web Developer - Graphic Artist - User Experience Designer</span> -->
+                    </div>
+                    <img class="img-responsive" src="img/Yuhihai2017GroupPhoto.jpg" alt="">
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <!-- Officer Section -->
+    <section class="success" id="officers">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12 text-center">
+                    <h2>Current Officers</h2>
+                    <hr class="star-light">
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-lg-5 col-lg-offset-2">
+                    <p style="font-size: 27px;"> <b>President:</b> Stephen Chang
+                    <br><b>Vice President:</b> Karen Lo</p>
+                </div>
+                <div class="col-lg-5">
+                    <p style="font-size: 27px;"><b>Treasurer:</b>  Kevin Nguyen
+                    <br><b>Secretary:</b> Chase Rowe</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Coaches Grid Section -->
+    <section id="coaches">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12 text-center">
+                    <h2>Coaches</h2>
+                    <hr class="star-primary">
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-sm-4 portfolio-item">
+                    <a href="#coachModal1" class="portfolio-link" data-toggle="modal">
+                        <div class="caption">
+                            <div class="caption-content">
+                                <i class="fa fa-search-plus fa-3x"></i>
+                            </div>
+                        </div>
+                        <img src="img/portfolio/game.png" class="img-responsive" alt="Cabin">
+                    </a>
+                </div>
+                <div class="col-sm-4 portfolio-item">
+                    <a href="#coachModal2" class="portfolio-link" data-toggle="modal">
+                        <div class="caption">
+                            <div class="caption-content">
+                                <i class="fa fa-search-plus fa-3x"></i>
+                            </div>
+                        </div>
+                        <img src="img/hk_i.jpg" class="img-responsive" alt="Slice of cake">
+                    </a>
+                </div>
+                <div class="col-sm-4 portfolio-item">
+                    <a href="#coachModal3" class="portfolio-link" data-toggle="modal">
+                        <div class="caption">
+                            <div class="caption-content">
+                                <i class="fa fa-search-plus fa-3x"></i>
+                            </div>
+                        </div>
+                        <img src="img/portfolio/cake.png" class="img-responsive" alt="Circus tent">
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <!-- Achievements Grid Section -->
+    <section id="achievements">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12 text-center">
+                    <h2>Achievements</h2>
+                    <hr class="star-primary">
+                </div>
+            </div>
+            <div class="row">
+                <!-- To create more icons for years, make a pictures of size 900x650,
+                        background color of r:44, g:62, b:80, font color: white, font: Bauhaus 93,
+                        font size: 130. -->
+
+                <!--div class="col-sm-4 portfolio-item">
+                    <a href="#portfolioModal15" class="portfolio-link" data-toggle="modal">
+                        <div class="caption">
+                            <div class="caption-content">
+                                <i class="fa fa-search-plus fa-3x"></i>
+                            </div>
+                        </div>
+                        <img src="img/portfolio/cabin.png" class="img-responsive" alt="Cabin">
+                    </a>
+                </div-->
+                <div class="col-sm-4 portfolio-item">
+                    <a href="#portfolioModal14" class="portfolio-link" data-toggle="modal">
+                        <div class="caption">
+                            <div class="caption-content">
+                                <i class="fa fa-search-plus fa-3x"></i>
+                            </div>
+                        </div>
+                        <img src="img/achievement/year14.jpg" class="img-responsive" alt="Cabin">
+                    </a>
+                </div>
+                <div class="col-sm-4 portfolio-item">
+                    <a href="#portfolioModal13" class="portfolio-link" data-toggle="modal">
+                        <div class="caption">
+                            <div class="caption-content">
+                                <i class="fa fa-search-plus fa-3x"></i>
+                            </div>
+                        </div>
+                        <img src="img/achievement/year13.jpg" class="img-responsive" alt="Cabin">
+                    </a>
+                </div>
+                <div class="col-sm-4 portfolio-item">
+                    <a href="#portfolioModal12" class="portfolio-link" data-toggle="modal">
+                        <div class="caption">
+                            <div class="caption-content">
+                                <i class="fa fa-search-plus fa-3x"></i>
+                            </div>
+                        </div>
+                        <img src="img/achievement/year12.jpg" class="img-responsive" alt="Slice of cake">
+                    </a>
+                </div>
+                <div class="col-sm-4 portfolio-item">
+                    <a href="#portfolioModal11" class="portfolio-link" data-toggle="modal">
+                        <div class="caption">
+                            <div class="caption-content">
+                                <i class="fa fa-search-plus fa-3x"></i>
+                            </div>
+                        </div>
+                        <img src="img/achievement/year11.jpg" class="img-responsive" alt="Circus tent">
+                    </a>
+                </div>
+                <div class="col-sm-4 portfolio-item">
+                    <a href="#portfolioModal10" class="portfolio-link" data-toggle="modal">
+                        <div class="caption">
+                            <div class="caption-content">
+                                <i class="fa fa-search-plus fa-3x"></i>
+                            </div>
+                        </div>
+                        <img src="img/achievement/year10.jpg" class="img-responsive" alt="Game controller">
+                    </a>
+                </div>
+                <div class="col-sm-4 portfolio-item">
+                    <a href="#portfolioModal9" class="portfolio-link" data-toggle="modal">
+                        <div class="caption">
+                            <div class="caption-content">
+                                <i class="fa fa-search-plus fa-3x"></i>
+                            </div>
+                        </div>
+                        <img src="img/achievement/year9.jpg" class="img-responsive" alt="Safe">
+                    </a>
+                </div>
+                <div class="col-sm-4 portfolio-item">
+                    <a href="#portfolioModal8" class="portfolio-link" data-toggle="modal">
+                        <div class="caption">
+                            <div class="caption-content">
+                                <i class="fa fa-search-plus fa-3x"></i>
+                            </div>
+                        </div>
+                        <img src="img/achievement/year8.jpg" class="img-responsive" alt="Submarine">
+                    </a>
+                </div>
+                <div class="col-sm-4 portfolio-item">
+                    <a href="#portfolioModal7" class="portfolio-link" data-toggle="modal">
+                        <div class="caption">
+                            <div class="caption-content">
+                                <i class="fa fa-search-plus fa-3x"></i>
+                            </div>
+                        </div>
+                        <img src="img/achievement/year7.jpg" class="img-responsive" alt="Game controller">
+                    </a>
+                </div>
+                <div class="col-sm-4 portfolio-item">
+                    <a href="#portfolioModal6" class="portfolio-link" data-toggle="modal">
+                        <div class="caption">
+                            <div class="caption-content">
+                                <i class="fa fa-search-plus fa-3x"></i>
+                            </div>
+                        </div>
+                        <img src="img/achievement/year6.jpg" class="img-responsive" alt="Safe">
+                    </a>
+                </div>
+                <div class="col-sm-4 portfolio-item">
+                    <a href="#portfolioModal5" class="portfolio-link" data-toggle="modal">
+                        <div class="caption">
+                            <div class="caption-content">
+                                <i class="fa fa-search-plus fa-3x"></i>
+                            </div>
+                        </div>
+                        <img src="img/achievement/year5.jpg" class="img-responsive" alt="Submarine">
+                    </a>
+                </div>
+                <div class="col-sm-4 portfolio-item">
+                    <a href="#portfolioModal4" class="portfolio-link" data-toggle="modal">
+                        <div class="caption">
+                            <div class="caption-content">
+                                <i class="fa fa-search-plus fa-3x"></i>
+                            </div>
+                        </div>
+                        <img src="img/achievement/year4.jpg" class="img-responsive" alt="Submarine">
+                    </a>
+                </div>
+                <div class="col-sm-4 portfolio-item">
+                    <a href="#portfolioModal3" class="portfolio-link" data-toggle="modal">
+                        <div class="caption">
+                            <div class="caption-content">
+                                <i class="fa fa-search-plus fa-3x"></i>
+                            </div>
+                        </div>
+                        <img src="img/achievement/year3.jpg" class="img-responsive" alt="Game controller">
+                    </a>
+                </div>
+                <div class="col-sm-4 portfolio-item">
+                    <a href="#portfolioModal2" class="portfolio-link" data-toggle="modal">
+                        <div class="caption">
+                            <div class="caption-content">
+                                <i class="fa fa-search-plus fa-3x"></i>
+                            </div>
+                        </div>
+                        <img src="img/achievement/year2.jpg" class="img-responsive" alt="Safe">
+                    </a>
+                </div>
+                <div class="col-sm-4 portfolio-item">
+                    <a href="#portfolioModal1" class="portfolio-link" data-toggle="modal">
+                        <div class="caption">
+                            <div class="caption-content">
+                                <i class="fa fa-search-plus fa-3x"></i>
+                            </div>
+                        </div>
+                        <img src="img/achievement/year1.jpg" class="img-responsive" alt="Submarine">
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+     <!-- Gallery Grid Section -->
+    <section id="gallery">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12 text-center">
+                    <h2>Gallery</h2>
+                    <hr class="star-primary">
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-sm-4 portfolio-item">
+                    <a href="#galleryModal1" class="portfolio-link" data-toggle="modal">
+                        <div class="caption">
+                            <div class="caption-content">
+                                <i class="fa fa-search-plus fa-3x"></i>
+                            </div>
+                        </div>
+                        <img src="img/gallery/2017gasshuku2.jpg" class="img-responsive" alt="Cabin">
+                    </a>
+                </div>
+                <div class="col-sm-4 portfolio-item">
+                    <a href="#galleryModal2" class="portfolio-link" data-toggle="modal">
+                        <div class="caption">
+                            <div class="caption-content">
+                                <i class="fa fa-search-plus fa-3x"></i>
+                            </div>
+                        </div>
+                        <img src="img/gallery/2017reunion_i.jpg" class="img-responsive" alt="Slice of cake">
+                    </a>
+                </div>
+                <div class="col-sm-4 portfolio-item">
+                    <a href="#galleryModal3" class="portfolio-link" data-toggle="modal">
+                        <div class="caption">
+                            <div class="caption-content">
+                                <i class="fa fa-search-plus fa-3x"></i>
+                            </div>
+                        </div>
+                        <img src="img/gallery/2017senior_i.jpg" class="img-responsive" alt="Circus tent">
+                    </a>
+                </div>
+                <div class="col-sm-4 portfolio-item">
+                    <a href="#galleryModal4" class="portfolio-link" data-toggle="modal">
+                        <div class="caption">
+                            <div class="caption-content">
+                                <i class="fa fa-search-plus fa-3x"></i>
+                            </div>
+                        </div>
+                        <img src="img/gallery/2017fivek_i.jpg" class="img-responsive" alt="Game controller">
+                    </a>
+                </div>
+                <div class="col-sm-4 portfolio-item">
+                    <a href="#galleryModal5" class="portfolio-link" data-toggle="modal">
+                        <div class="caption">
+                            <div class="caption-content">
+                                <i class="fa fa-search-plus fa-3x"></i>
+                            </div>
+                        </div>
+                        <img src="img/gallery/2017practice_i.jpg" class="img-responsive" alt="Safe">
+                    </a>
+                </div>
+                <div class="col-sm-4 portfolio-item">
+                    <a href="#galleryModal6" class="portfolio-link" data-toggle="modal">
+                        <div class="caption">
+                            <div class="caption-content">
+                                <i class="fa fa-search-plus fa-3x"></i>
+                            </div>
+                        </div>
+                        <img src="img/gallery/2017nonbogu_i.jpg" class="img-responsive" alt="Submarine">
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section class="success" id="about">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12 text-center">
+                    <h2>About</h2>
+                    <hr class="star-light">
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-lg-4 col-lg-offset-2">
+                    <p>The Kendo Club at UCSD was founded in 1998 and remains active to this day. Our club seeks to promote awareness and appreciation of the Japanese martial art, kendo (剣道). Our members have gone on to compete at the national and international level.</p>
+                </div>
+                <div class="col-lg-4">
+                    <p>The Kendo Recreation Class is offered through the UCSD Recreation Department. It’s a great way for beginners to learn kendo from an experienced individual in a welcoming environment!</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12 text-center">
+                    <h2>Contact Us</h2>
+                    <hr class="star-primary">
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-lg-8 col-lg-offset-2">
+                    <!-- To configure the contact form email address, go to mail/contact_me.php and update the email address in the PHP file on line 19. -->
+                    <!-- The form should work on most web servers, but if the form is not working you may need to configure your web server differently. -->
+                    <form name="sentMessage" id="contactForm" novalidate>
+                        <div class="row control-group">
+                            <div class="form-group col-xs-12 floating-label-form-group controls">
+                                <label for="name">Name</label>
+                                <input type="text" class="form-control" placeholder="Name" id="name" required data-validation-required-message="Please enter your name.">
+                                <p class="help-block text-danger"></p>
+                            </div>
+                        </div>
+                        <div class="row control-group">
+                            <div class="form-group col-xs-12 floating-label-form-group controls">
+                                <label for="email">Email Address</label>
+                                <input type="email" class="form-control" placeholder="Email Address" id="email" required data-validation-required-message="Please enter your email address.">
+                                <p class="help-block text-danger"></p>
+                            </div>
+                        </div>
+                        <div class="row control-group">
+                            <div class="form-group col-xs-12 floating-label-form-group controls">
+                                <label for="phone">Phone Number</label>
+                                <input type="tel" class="form-control" placeholder="Phone Number" id="phone" required data-validation-required-message="Please enter your phone number.">
+                                <p class="help-block text-danger"></p>
+                            </div>
+                        </div>
+                        <div class="row control-group">
+                            <div class="form-group col-xs-12 floating-label-form-group controls">
+                                <label for="message">Message</label>
+                                <textarea rows="5" class="form-control" placeholder="Message" id="message" required data-validation-required-message="Please enter a message."></textarea>
+                                <p class="help-block text-danger"></p>
+                            </div>
+                        </div>
+                        <br>
+                        <div id="success"></div>
+                        <div class="row">
+                            <div class="form-group col-xs-12">
+                                <button type="submit" class="btn btn-success btn-lg">Send</button>
+                            </div>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="text-center">
+        <div class="footer-above">
+            <div class="container">
+                <div class="row">
+                    <div class="footer-col col-md-4">
+                        <h3>Location</h3>
+                        <p>University of California, San Diego
+                            <br> 9500 Gilman Drive
+                            <br>La Jolla, CA 92093</p>
+                    </div>
+                    <div class="footer-col col-md-4">
+                        <h3>Around the Web</h3>
+                        <ul class="list-inline">
+                            <li>
+                                <a href="https://www.facebook.com/groups/sdkendo/" class="btn-social btn-outline"><span class="sr-only">Facebook</span><i class="fa fa-fw fa-facebook"></i></a>
+                            </li>
+<!--                             <li>
+                                <a href="#" class="btn-social btn-outline"><span class="sr-only">Google Plus</span><i class="fa fa-fw fa-google-plus"></i></a>
+                            </li>
+                            <li>
+                                <a href="#" class="btn-social btn-outline"><span class="sr-only">Twitter</span><i class="fa fa-fw fa-twitter"></i></a>
+                            </li>
+                            <li>
+                                <a href="#" class="btn-social btn-outline"><span class="sr-only">Linked In</span><i class="fa fa-fw fa-linkedin"></i></a>
+                            </li>
+                            <li>
+                                <a href="#" class="btn-social btn-outline"><span class="sr-only">Dribble</span><i class="fa fa-fw fa-dribbble"></i></a>
+                            </li> -->
+                        </ul>
+                    </div>
+                    <div class="footer-col col-md-4">
+                        <h3>UCSD Rec Class</h3>
+                        <p>Sign up for the UCSD Kendo Rec Class <a href="https://shoprec.ucsd.edu/">here</a>.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="footer-below">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-12">
+                        Copyright &copy; Kendo Club at UCSD 2017
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Scroll to Top Button (Only visible on small and extra-small screen sizes) -->
+    <div class="scroll-top page-scroll hidden-sm hidden-xs hidden-lg hidden-md">
+        <a class="btn btn-primary" href="#page-top">
+            <i class="fa fa-chevron-up"></i>
+        </a>
+    </div>
+
+    <!-- Portfolio Modals -->
+    <div class="portfolio-modal modal fade" id="coachModal1" tabindex="-1" role="dialog" aria-hidden="true">
+        <div class="modal-content">
+            <div class="close-modal" data-dismiss="modal">
+                <div class="lr">
+                    <div class="rl">
+                    </div>
+                </div>
+            </div>
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-8 col-lg-offset-2">
+                        <div class="modal-body">
+                            <h2>Chinen Sensei</h2>
+                            <hr class="star-primary">
+                            <!--img src="img/portfolio/cabin.png" class="img-responsive img-centered" alt="">
+                            <p>Use this area of the page to describe your project. The icon above is part of a free icon set by <a href="https://sellfy.com/p/8Q9P/jV3VZ/">Flat Icons</a>. On their website, you can download their free set with 16 icons, or you can purchase the entire set with 146 icons for only $12!</p>
+                            <ul class="list-inline item-details">
+                                <li>Client:
+                                    <strong><a href="http://startbootstrap.com">Start Bootstrap</a>
+                                    </strong>
+                                </li>
+                                <li>Date:
+                                    <strong><a href="http://startbootstrap.com">April 2014</a>
+                                    </strong>
+                                </li>
+                                <li>Service:
+                                    <strong><a href="http://startbootstrap.com">Web Development</a>
+                                    </strong>
+                                </li>
+                            </ul-->
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="portfolio-modal modal fade" id="coachModal2" tabindex="-1" role="dialog" aria-hidden="true">
+        <div class="modal-content">
+            <div class="close-modal" data-dismiss="modal">
+                <div class="lr">
+                    <div class="rl">
+                    </div>
+                </div>
+            </div>
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-8 col-lg-offset-2">
+                        <div class="modal-body">
+                            <h2>Kikunaga Sensei</h2>
+                            <hr class="star-primary">
+                            <img src="img/hk.jpg" class="img-responsive img-centered" alt="">
+                            <ul class="list-inline item-details">
+                                <li><strong>Rank:</strong>
+                                    5 Dan
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="portfolio-modal modal fade" id="coachModal3" tabindex="-1" role="dialog" aria-hidden="true">
+        <div class="modal-content">
+            <div class="close-modal" data-dismiss="modal">
+                <div class="lr">
+                    <div class="rl">
+                    </div>
+                </div>
+            </div>
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-8 col-lg-offset-2">
+                        <div class="modal-body">
+                            <h2>Zau Sensei</h2>
+                            <hr class="star-primary">
+                            <!--img src="img/portfolio/circus.png" class="img-responsive img-centered" alt=""-->
+                            <!--p>Use this area of the page to describe your project. The icon above is part of a free icon set by <a href="https://sellfy.com/p/8Q9P/jV3VZ/">Flat Icons</a>. On their website, you can download their free set with 16 icons, or you can purchase the entire set with 146 icons for only $12!</p>
+                            <ul class="list-inline item-details">
+                                <li>Client:
+                                    <strong><a href="http://startbootstrap.com">Start Bootstrap</a>
+                                    </strong>
+                                </li>
+                                <li>Date:
+                                    <strong><a href="http://startbootstrap.com">April 2014</a>
+                                    </strong>
+                                </li>
+                                <li>Service:
+                                    <strong><a href="http://startbootstrap.com">Web Development</a>
+                                    </strong>
+                                </li>
+                            </ul-->
+                            <button type="button" class="btn btn-default" data-dismiss="modal"><i class="fa fa-times"></i> Close</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!--div class="portfolio-modal modal fade" id="portfolioModal15" tabindex="-1" role="dialog" aria-hidden="true">
+        <div class="modal-content">
+            <div class="close-modal" data-dismiss="modal">
+                <div class="lr">
+                    <div class="rl">
+                    </div>
+                </div>
+            </div>
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-8 col-lg-offset-2">
+                        <div class="modal-body">
+                            <h2>2019</h2>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div-->
+    <div class="portfolio-modal modal fade" id="portfolioModal14" tabindex="-1" role="dialog" aria-hidden="true">
+        <div class="modal-content">
+            <div class="close-modal" data-dismiss="modal">
+                <div class="lr">
+                    <div class="rl">
+                    </div>
+                </div>
+            </div>
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-8 col-lg-offset-2">
+                        <div class="modal-body">
+                            <h2>2017-2018</h2>
+                            <h3>Fighting!</h3>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="portfolio-modal modal fade" id="portfolioModal13" tabindex="-1" role="dialog" aria-hidden="true">
+        <div class="modal-content">
+            <div class="close-modal" data-dismiss="modal">
+                <div class="lr">
+                    <div class="rl">
+                    </div>
+                </div>
+            </div>
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-8 col-lg-offset-2">
+                        <div class="modal-body">
+                            <h2>2016-2017</h2>
+                            <hr class="star-primary">
+                            <img src="img/achievement/2017yuhihai.jpg" class="img-responsive img-centered" alt="">
+                            <h3>Yuhihai</h3>
+                            <p> 1st Place Kyu Tournament - Jinsoo Park </p>
+                            <p> 3rd Place Kyu Tournament - Siddarth Govindan </p>
+                            <p> 3rd Place Women's Team Tournament - UCSD Women's Team A </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="portfolio-modal modal fade" id="portfolioModal12" tabindex="-1" role="dialog" aria-hidden="true">
+        <div class="modal-content">
+            <div class="close-modal" data-dismiss="modal">
+                <div class="lr">
+                    <div class="rl">
+                    </div>
+                </div>
+            </div>
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-8 col-lg-offset-2">
+                        <div class="modal-body">
+                            <h2>2015-2016</h2>
+                            <hr class="star-primary">
+                            <img src="img/achievement/2016shoryuhai.jpg" class="img-responsive img-centered" alt="">
+                            <img src="img/achievement/2016yuhihai.jpg" class="img-responsive img-centered" alt="">
+                            <h3>Shoryuhai</h3>
+                            <p> 3rd Place Team Tournament - UCSD Team A </p>
+                            <h3>Yuhihai</h3>
+                            <p> 2nd Place Non-Bogu Tournament - Christiane Pham </p>
+                            <p> 3rd Place Non-Bogu Tournament - Berlin Chen </p>
+                            <p> 2nd Place Kyu Tournament - Jinsoo Park </p>
+                            <p> 3rd Place Kyu Tournament - Nathan Tu </p>
+                            <p> 3rd Place Yudansha Tournament - Viet Nguyen </p>
+                            <p> 3rd Place Women's Team Tournament - UCSD Women's Team A </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="portfolio-modal modal fade" id="portfolioModal11" tabindex="-1" role="dialog" aria-hidden="true">
+        <div class="modal-content">
+            <div class="close-modal" data-dismiss="modal">
+                <div class="lr">
+                    <div class="rl">
+                    </div>
+                </div>
+            </div>
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-8 col-lg-offset-2">
+                        <div class="modal-body">
+                            <h2>2014-2015</h2>
+                            <hr class="star-primary">
+                            <img src="img/achievement/2015shoryuhai.jpg" class="img-responsive img-centered" alt="">
+                            <img src="img/achievement/2015yuhihai.jpg" class="img-responsive img-centered" alt="">
+                            <h3>Shoryuhai</h3>
+                            <p> 3rd Place Individuals Tournament - Viet Nguyen </p>
+                            <h3>Yuhihai</h3>
+                            <p> 3rd Place Team Tournament - UCSD Team A </p>
+                            <p> 2nd Place Women's Team Tournament - UCSD Women's Team </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="portfolio-modal modal fade" id="portfolioModal10" tabindex="-1" role="dialog" aria-hidden="true">
+        <div class="modal-content">
+            <div class="close-modal" data-dismiss="modal">
+                <div class="lr">
+                    <div class="rl">
+                    </div>
+                </div>
+            </div>
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-8 col-lg-offset-2">
+                        <div class="modal-body">
+                            <h2>2013-2014</h2>
+                            <hr class="star-primary">
+                            <img src="img/achievement/2014shoryuhai.jpg" class="img-responsive img-centered" alt="">
+                            <img src="img/achievement/2014yuhihai.jpg" class="img-responsive img-centered" alt="">
+                            <h3>Shoryuhai</h3>
+                            <p> 2nd Place Team Tournament - UCSD Team </p>
+                            <p> 1st Place Individuals Tournament - Shintaro Takahashi </p>
+                            <h3>Yuhihai</h3>
+                            <p> 1st Place Team Tournament - UCSD Team </p>
+                            <p> 2nd Place Yudansha Tournament - Kensuke Ukai </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="portfolio-modal modal fade" id="portfolioModal9" tabindex="-1" role="dialog" aria-hidden="true">
+        <div class="modal-content">
+            <div class="close-modal" data-dismiss="modal">
+                <div class="lr">
+                    <div class="rl">
+                    </div>
+                </div>
+            </div>
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-8 col-lg-offset-2">
+                        <div class="modal-body">
+                            <h2>2012-2013</h2>
+                            <hr class="star-primary">
+                            <img src="img/achievement/2013shoryuhai.jpg" class="img-responsive img-centered" alt="">
+                            <img src="img/achievement/2013yuhihai.jpg" class="img-responsive img-centered" alt="">
+                            <h3>Shoryuhai</h3>
+                            <p> 1st Place Team Tournament - UCSD Team </p>
+                            <p> 1st Place Individuals Tournament - Fumiaki Ayabe </p>
+                            <h3>Yuhihai</h3>
+                            <p> 3rd Place Team Tournament - UCSD Team </p>
+                            <p> 1st Place Yudansha Tournament - Albert Choi </p>
+                            <p> 1st Place Kyu Tournament - Joe Wang </p>
+                            <p> 3rd Place Kyu Tournament - Sharif Alaoui </p>
+                            <p> 3rd Place Women's Tournament - Christina Lin </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="portfolio-modal modal fade" id="portfolioModal8" tabindex="-1" role="dialog" aria-hidden="true">
+        <div class="modal-content">
+            <div class="close-modal" data-dismiss="modal">
+                <div class="lr">
+                    <div class="rl">
+                    </div>
+                </div>
+            </div>
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-8 col-lg-offset-2">
+                        <div class="modal-body">
+                            <h2>2011-2012</h2>
+                            <hr class="star-primary">
+                            <img src="img/achievement/2012shoryuhai.jpg" class="img-responsive img-centered" alt="">
+                            <img src="img/achievement/2012yuhihai.jpg" class="img-responsive img-centered" alt="">
+                            <h3>Shoryuhai</h3>
+                            <p> 2nd Place Team Tournament - UCSD Team </p>
+                            <p> 1st Place Individuals Tournament - Yannis Hachouf </p>
+                            <h3>Yuhihai</h3>
+                            <p> 1st Place Team Tournament - UCSD Team </p>
+                            <p> 3rd Place Yudansha Tournament - Shintaro Takahashi </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="portfolio-modal modal fade" id="portfolioModal7" tabindex="-1" role="dialog" aria-hidden="true">
+        <div class="modal-content">
+            <div class="close-modal" data-dismiss="modal">
+                <div class="lr">
+                    <div class="rl">
+                    </div>
+                </div>
+            </div>
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-8 col-lg-offset-2">
+                        <div class="modal-body">
+                            <h2>2010-2011</h2>
+                            <hr class="star-primary">
+                            <img src="img/achievement/2011shoryuhai.jpg" class="img-responsive img-centered" alt="">
+                            <img src="img/achievement/2011yuhihai.jpg" class="img-responsive img-centered" alt="">
+                            <h3>Shoryuhai</h3>
+                            <p> 1std Place Team Tournament - UCSD Team </p>
+                            <p> 3rd Place Individuals Tournament - Hojin Park </p>
+                            <h3>Yuhihai</h3>
+                            <p> 3rd Place Yudansha Tournament - Shintaro Takahashi </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="portfolio-modal modal fade" id="portfolioModal6" tabindex="-1" role="dialog" aria-hidden="true">
+        <div class="modal-content">
+            <div class="close-modal" data-dismiss="modal">
+                <div class="lr">
+                    <div class="rl">
+                    </div>
+                </div>
+            </div>
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-8 col-lg-offset-2">
+                        <div class="modal-body">
+                            <h2>2008-2009</h2>
+                            <hr class="star-primary">
+                            <h3>Shoryuhai</h3>
+                            <p> 3rd Place Team Tournament - UCSD Team </p>
+                            <p> 3rd Place Individuals Tournament - Teppei Shima </p>
+                            <h3>Yuhihai</h3>
+                            <p> 3rd Place Yudansha Tournament - Hojin Park </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="portfolio-modal modal fade" id="portfolioModal5" tabindex="-1" role="dialog" aria-hidden="true">
+        <div class="modal-content">
+            <div class="close-modal" data-dismiss="modal">
+                <div class="lr">
+                    <div class="rl">
+                    </div>
+                </div>
+            </div>
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-8 col-lg-offset-2">
+                        <div class="modal-body">
+                            <h2>2007-2008</h2>
+                            <hr class="star-primary">
+                            <h3>Shoryuhai</h3>
+                            <p> 2nd Place Team Tournament - UCSD Team </p>
+                            <h3>Yuhihai</h3>
+                            <p> 3rd Place Team Tournament - UCSD Team</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="portfolio-modal modal fade" id="portfolioModal4" tabindex="-1" role="dialog" aria-hidden="true">
+        <div class="modal-content">
+            <div class="close-modal" data-dismiss="modal">
+                <div class="lr">
+                    <div class="rl">
+                    </div>
+                </div>
+            </div>
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-8 col-lg-offset-2">
+                        <div class="modal-body">
+                            <h2>2006-2007</h2>
+                            <hr class="star-primary">
+                            <h3>Shoryuhai</h3>
+                            <p> 2nd Place Team Tournament - UCSD Team </p>
+                            <p> 3rd Place Individuals Tournament - Hojin Park </p>
+                            <h3>Yuhihai</h3>
+                            <p> 1st Place Team Tournament - UCSD Team </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="portfolio-modal modal fade" id="portfolioModal3" tabindex="-1" role="dialog" aria-hidden="true">
+        <div class="modal-content">
+            <div class="close-modal" data-dismiss="modal">
+                <div class="lr">
+                    <div class="rl">
+                    </div>
+                </div>
+            </div>
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-8 col-lg-offset-2">
+                        <div class="modal-body">
+                            <h2>2005-2006</h2>
+                            <hr class="star-primary">
+                            <h3>Shoryuhai</h3>
+                            <p> 2nd Place Team Tournament - UCSD Team A </p>
+                            <p> 3rd Place Team Tournament - UCSD Team B </p>
+                            <p> 2nd Place Individuals Tournament - Ann Tamura </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="portfolio-modal modal fade" id="portfolioModal2" tabindex="-1" role="dialog" aria-hidden="true">
+        <div class="modal-content">
+            <div class="close-modal" data-dismiss="modal">
+                <div class="lr">
+                    <div class="rl">
+                    </div>
+                </div>
+            </div>
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-8 col-lg-offset-2">
+                        <div class="modal-body">
+                            <h2>2004-2005</h2>
+                            <hr class="star-primary">
+                            <h3>Shoryuhai</h3>
+                            <p> 1st Place Team Tournament - UCSD Team </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="portfolio-modal modal fade" id="portfolioModal1" tabindex="-1" role="dialog" aria-hidden="true">
+        <div class="modal-content">
+            <div class="close-modal" data-dismiss="modal">
+                <div class="lr">
+                    <div class="rl">
+                    </div>
+                </div>
+            </div>
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-8 col-lg-offset-2">
+                        <div class="modal-body">
+                            <h2>2003-2004</h2>
+                            <hr class="star-primary">
+                            <h3>Shoryuhai</h3>
+                            <p> 2nd Place Team Tournament - UCSD Team </p>
+                            <p> 2nd Place Individuals Tournament - Randall Iwashita </p>
+                            <p> 3rd Place Individuals Tournament - Young Shik Cho </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="portfolio-modal modal fade" id="galleryModal1" tabindex="-1" role="dialog" aria-hidden="true">
+        <div class="modal-content">
+            <div class="close-modal" data-dismiss="modal">
+                <div class="lr">
+                    <div class="rl">
+                    </div>
+                </div>
+            </div>
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-8 col-lg-offset-2">
+                        <div class="modal-body">
+                            <h2>2017 Gasshuku</h2>
+                            <hr class="star-primary">
+                            <img src="img/gallery/2017gasshuku1.jpg" class="img-responsive img-centered" alt="">
+                            <p>Starting the year strong with our annual gasshuku.</p>
+                            <ul class="list-inline item-details">
+                                <li><strong>Date:</strong>
+                                    September 2017
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="portfolio-modal modal fade" id="galleryModal2" tabindex="-1" role="dialog" aria-hidden="true">
+        <div class="modal-content">
+            <div class="close-modal" data-dismiss="modal">
+                <div class="lr">
+                    <div class="rl">
+                    </div>
+                </div>
+            </div>
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-8 col-lg-offset-2">
+                        <div class="modal-body">
+                            <h2>Reunion</h2>
+                            <hr class="star-primary">
+                            <img src="img/gallery/2017reunion1.jpg" class="img-responsive img-centered" alt="">
+                            <img src="img/gallery/2017reunion2.jpg" class="img-responsive img-centered" alt="">
+                            <p>Team reunions at various tournaments throughout the summer.</p>
+                            <ul class="list-inline item-details">
+                                <li><strong>Date:</strong>
+                                    June/July 2017
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="portfolio-modal modal fade" id="galleryModal3" tabindex="-1" role="dialog" aria-hidden="true">
+        <div class="modal-content">
+            <div class="close-modal" data-dismiss="modal">
+                <div class="lr">
+                    <div class="rl">
+                    </div>
+                </div>
+            </div>
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-8 col-lg-offset-2">
+                        <div class="modal-body">
+                            <h2>2017 Senior Sendoff</h2>
+                            <hr class="star-primary">
+                            <img src="img/gallery/2017senior1.jpg" class="img-responsive img-centered" alt="">
+                            <img src="img/gallery/2017senior2.jpg" class="img-responsive img-centered" alt="">
+                            <p>Congratulations to the class of 2017!</p>
+                            <ul class="list-inline item-details">
+                                <li><strong>Date:</strong>
+                                    June 2017
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="portfolio-modal modal fade" id="galleryModal4" tabindex="-1" role="dialog" aria-hidden="true">
+        <div class="modal-content">
+            <div class="close-modal" data-dismiss="modal">
+                <div class="lr">
+                    <div class="rl">
+                    </div>
+                </div>
+            </div>
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-8 col-lg-offset-2">
+                        <div class="modal-body">
+                            <h2>Workout</h2>
+                            <hr class="star-primary">
+                            <img src="img/gallery/2017fivek1.jpg" class="img-responsive img-centered" alt="">
+                            <img src="img/gallery/2017fivek2.jpg" class="img-responsive img-centered" alt="">
+                            <p>5k run around campus.</p>
+                            <ul class="list-inline item-details">
+                                <li><strong>Date:</strong>
+                                    April 2017
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="portfolio-modal modal fade" id="galleryModal5" tabindex="-1" role="dialog" aria-hidden="true">
+        <div class="modal-content">
+            <div class="close-modal" data-dismiss="modal">
+                <div class="lr">
+                    <div class="rl">
+                    </div>
+                </div>
+            </div>
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-8 col-lg-offset-2">
+                        <div class="modal-body">
+                            <h2>Practice</h2>
+                            <hr class="star-primary">
+                            <img src="img/gallery/2017practice2.jpg" class="img-responsive img-centered" alt="">
+                            <img src="img/gallery/2017practice1.jpg" class="img-responsive img-centered" alt="">
+                            <p>Friday night team practice.</p>
+                            <ul class="list-inline item-details">
+                                <li><strong>Date:</strong>
+                                    April 2017
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="portfolio-modal modal fade" id="galleryModal6" tabindex="-1" role="dialog" aria-hidden="true">
+        <div class="modal-content">
+            <div class="close-modal" data-dismiss="modal">
+                <div class="lr">
+                    <div class="rl">
+                    </div>
+                </div>
+            </div>
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-8 col-lg-offset-2">
+                        <div class="modal-body">
+                            <h2>Non-Bogu</h2>
+                            <hr class="star-primary">
+                            <img src="img/gallery/2017nonbogu1.jpg" class="img-responsive img-centered" alt="">
+                            <img src="img/gallery/2017nonbogu2.jpg" class="img-responsive img-centered" alt="">
+                            <p>Preparing our beginner kenshi for the non-bogu tournament.</p>
+                            <ul class="list-inline item-details">
+                                <li><strong>Date:</strong>
+                                    February 2017
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- jQuery -->
+    <script src="vendor/jquery/jquery.min.js"></script>
+
+    <!-- Bootstrap Core JavaScript -->
+    <script src="vendor/bootstrap/js/bootstrap.min.js"></script>
+
+    <!-- Plugin JavaScript -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-easing/1.3/jquery.easing.min.js"></script>
+
+    <!-- Contact Form JavaScript -->
+    <script src="js/jqBootstrapValidation.js"></script>
+    <script src="js/contact_me.js"></script>
+
+    <!-- Theme JavaScript -->
+    <script src="js/freelancer.min.js"></script>
+
 </body>
+
 </html>
